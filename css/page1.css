@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Baloo Chettan 2';
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+img {
+    border-style:none;
+    vertical-align: middle;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.pre-nav-wrapper {
+    background-color: rgb(226, 222, 217);
+}
+
+.navigation-utility-wrapper {
+    max-width: 33.33%;
+    flex : 0 0 33.33%;
+    
+}
+
+.pre-nav-wrapper .navigation-utility {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.pre-nav-wrapper .navigation-utility ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0;
+}
+
+.pre-nav-wrapper .navigation-utility ul li {
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+.pre-nav-wrapper .navigation-utility ul li:first-child {
+    border-right: 1px solid black;
+    margin-right: 8px;
+    padding-right: 8px;
+    
+}
+
+.pre-nav-wrapper .navigation-utility ul li a {
+    color: black;
+    margin: 0;
+}
+
+.pre-nav-wrapper .social-media-links {
+    background-color: rgb(97, 97, 97);
+
+}
+
+.pre-nav-wrapper .social-media-links ul {
+    padding: 3px 5px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.pre-nav-wrapper .social-media-links ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.pre-nav-wrapper .social-media-links ul li:not(:last-child) {
+    margin-right: 5px;
+}
+
+.nav-wrapper {
+    background-color: rgb(172, 172, 172);
+    height: 100px;
+    position: sticky;
+    width: 100%;
+}
+
+.nav-wrapper .nav-header {
+    display: inline;
+}
+.nav-wrapper .nav-header .nav-title {
+    display: inline-block;
+    font-size: 30px;
+    padding: 28px;
+}
